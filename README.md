@@ -1,4 +1,4 @@
-# 🧠 C Notes for Malware Development
+#  C Notes for Malware Development
 
 This repo contains my C programming notes and code — focused on:
 
@@ -8,7 +8,7 @@ This repo contains my C programming notes and code — focused on:
 
 ---
 
-## 🚀 Why C?
+##  Why C?
 
 C gives direct access to memory and system internals — making it perfect for:
 
@@ -18,7 +18,7 @@ C gives direct access to memory and system internals — making it perfect for:
 
 ---
 
-## 📌 Goal
+##  Goal
 
 Build a solid C foundation for advanced topics like:
 - Buffer overflows
