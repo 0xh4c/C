@@ -1,10 +1,10 @@
-# 🔗 Master C Pointers
+#  Master C Pointers
 
 Welcome to **Master C Pointers** — a beginner-to-advanced guide that helps you understand how pointers work in C with **real code examples**, **simple explanations**, and **clear structure**. Whether you're a student, a beginner in systems programming, or diving into reverse engineering/malware dev, this repo is built to help you gain **confidence with pointers**.
 
 ---
 
-## 📘 What You'll Learn
+##  What You'll Learn
 
 * What pointers are and why they're used
 * How to manipulate variables using addresses
@@ -15,11 +15,11 @@ Welcome to **Master C Pointers** — a beginner-to-advanced guide that helps you
 
 ---
 
-## 📚 Pointer Concepts with Code (For Beginners to Advanced)
+##  Pointer Concepts with Code (For Beginners to Advanced)
 
 ---
 
-### 1. 🧠 What Are Pointers?
+### 1.  What Are Pointers?
 
 ```c
 int a = 5;
@@ -37,7 +37,7 @@ printf("%d\n", *p);    // 5 — value at that address
 
 ---
 
-### 2. 🧪 Swap Variables Using Pointers
+### 2.  Swap Variables Using Pointers
 
 ```c
 int x = 10, y = 20;
@@ -48,11 +48,11 @@ int temp = *p1;
 *p2 = temp;
 ```
 
-✅ Swap values using pointer dereferencing.
+ Swap values using pointer dereferencing.
 
 ---
 
-### 3. 🔒 Why Pointers are Strong Types
+### 3.  Why Pointers are Strong Types
 
 ```c
 int a = 100;
@@ -94,7 +94,7 @@ printf("%d\n", **pp);  // outputs 42
 
 ---
 
-### 6. 🔁 Call by Reference with Pointers
+### 6.  Call by Reference with Pointers
 
 ```c
 void update(int *n) {
@@ -110,7 +110,7 @@ printf("%d\n", x);  // 15
 
 ---
 
-### 7. 📚 Pointers and Arrays
+### 7.  Pointers and Arrays
 
 ```c
 int arr[] = {10, 20, 30};
@@ -123,7 +123,7 @@ printf("%d\n", *(p + 1));  // 20
 
 ---
 
-### 8. 📨 Array as Function Argument
+### 8.  Array as Function Argument
 
 ```c
 void print(int *arr, int size) {
@@ -141,7 +141,7 @@ int main() {
 
 ---
 
-### 9. ✍️ Character Arrays & Pointers
+### 9.  Character Arrays & Pointers
 
 ```c
 char str[] = "hello";
@@ -155,7 +155,7 @@ while (*p)
 
 ---
 
-### 10. 🧱 Multi-Dimensional Arrays & Pointers
+### 10.  Multi-Dimensional Arrays & Pointers
 
 ```c
 int arr[2][2] = {{1, 2}, {3, 4}};
@@ -168,7 +168,7 @@ printf("%d\n", p[1][1]);  // 4
 
 ---
 
-### 11. 📂 Dynamic Memory Allocation
+### 11.  Dynamic Memory Allocation
 
 ```c
 int *arr = malloc(3 * sizeof(int));
@@ -185,7 +185,7 @@ free(arr);
 
 ---
 
-### 12. 🔄 Pointers as Function Return
+### 12.  Pointers as Function Return
 
 ```c
 int* getVal() {
@@ -201,7 +201,7 @@ printf("%d\n", *p);  // 99
 
 ---
 
-### 13. 🎯 Function Pointers
+### 13.  Function Pointers
 
 ```c
 void greet() {
@@ -216,7 +216,7 @@ fptr();  // calls greet
 
 ---
 
-### 14. 🔁 Callback using Function Pointer
+### 14.  Callback using Function Pointer
 
 ```c
 void sayHi() {
@@ -234,7 +234,7 @@ callFunction(sayHi);
 
 ---
 
-### 15. 💨 What is Memory Leak?
+### 15.  What is Memory Leak?
 
 ```c
 int *ptr = malloc(sizeof(int));
@@ -247,6 +247,3 @@ int *ptr = malloc(sizeof(int));
 
 ---
 
-> ✨ Feel free to fork this, play with code, and contribute fixes or new examples!
-
-Happy Coding ☕
