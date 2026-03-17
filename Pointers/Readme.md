@@ -79,7 +79,7 @@ printf("%d\n", *(int*)vp);  // cast required
 
 ---
 
-### 5. 🧬 Pointer to Pointer
+### 5.  Pointer to Pointer
 
 ```c
 int a = 42;
